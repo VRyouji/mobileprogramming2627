@@ -74,16 +74,27 @@ class CreditCardsPage extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        // KODE UI ANDA DI SINI
-        // padding 1 
+        //padding1
         Padding(
-            padding: const EdgeInsets.only(),
-
+          padding: const EdgeInsets.only(top: 16.0, bottom: 8.0),
+          child: Text(
+            title,
+            style: const TextStyle(
+              fontSize: 24.0,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
         ),
-        // padding 2
+        //padding2
         Padding(
-            padding: const EdgeInsets.only(),
-
+          padding: const EdgeInsets.only(bottom: 16.0),
+          child: Text(
+            subTitle,
+            style: const TextStyle(
+              fontSize: 16.0,
+              color: Colors.black54,
+            ),
+          ),
         ),
       ],
     );
@@ -98,6 +109,8 @@ class CreditCardsPage extends StatelessWidget {
     
     // TODO 4: Bangun UI kartu kredit di sini.
     // Wajib memanggil fungsi _buildLogosBlock() dan _buildDetailsBlock() di dalamnya.
+    
+
     return Card(
       color: color,
       child: Container(
@@ -106,6 +119,11 @@ class CreditCardsPage extends StatelessWidget {
         child: const Center(child: Text("UI Kartu belum dibuat...")),
       ),
     );
+  }
+
+  _buildAddCardButton(){
+    Icon;
+    Color;
   }
 
   // buat  top row containing logo
@@ -121,9 +139,9 @@ class CreditCardsPage extends StatelessWidget {
       ],
     );
   }
-}
   // buat Column berisi kontainer dan Informasi
 
   // buat   FloatingActionButton
   
   // Build Column
+}
