@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 class CreditCardsPage extends StatelessWidget {
   
   // TODO 1: GANTI VARIABEL INI DENGAN DATA DIRI ANDA
-  final String namaMahasiswa = "NAMA LENGKAP ANDA"; // Jangan biarkan kosong!
-  final String nimMahasiswa = "NIM ANDA"; // Jangan biarkan kosong!
+  final String namaMahasiswa = "Vanesson Ryouji"; // Jangan biarkan kosong!
+  final String nimMahasiswa = "20245520003"; // Jangan biarkan kosong!
 
   @override
   Widget build(BuildContext context) {
@@ -113,6 +113,7 @@ class CreditCardsPage extends StatelessWidget {
       ],
     );
   }
+}
   // buat Column berisi kontainer dan Informasi
 
   // buat   FloatingActionButton
