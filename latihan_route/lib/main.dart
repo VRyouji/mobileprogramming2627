@@ -63,12 +63,12 @@ class MyHome extends StatelessWidget {
             const SizedBox(height: 16),
             // Tombol 2: ke LayarKeduaPisah(...) dengan mengirim argumen pesan
             ElevatedButton(
-                child: const Text('Ke screen Kedua Pisah'),
+                child: const Text('Ke Screen Kedua Pisah'),
                 onPressed: () {
                   Navigator.of(context)
                       .push(MaterialPageRoute(builder: (context) {
                     return const LayarKeduaPisah(
-                        pesan: "ini dari screen 1");
+                        pesan: "halloo ini pesan dari screen 1");
                   }));
                 }),
           ],
