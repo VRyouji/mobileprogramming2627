@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class LayarKeduaPisah extends StatelessWidget {
   final String pesan;
 
-  const LayarKeduaPisah({Key? key, required this.pesan}) : super(key: key);
+  const LayarKeduaPisah({Key? key, required this.pesan});
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +12,7 @@ class LayarKeduaPisah extends StatelessWidget {
         title: const Text('Screen Kedua Pisah'),
       ),
       body: Center(
-        child: Text("ini dari screen 2 : $pesan"),
+        child: Text("Ini screen kedua pisah,ada Pesan : $pesan"),
       ),
     );
   }
